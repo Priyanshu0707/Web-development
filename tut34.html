@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow and text Shadow</title>
+</head>
+<style>
+    .container{
+        display: flex;
+    }
+    .card{
+        padding: 23px 12px;
+        margin: 23px 12px;
+        border-radius: 5px;
+        /* border: 2px solid red; */
+        background-color: salmon;
+
+        /* box-shadow: offset-x offset-y blur-radius spread-radius color; */
+        /* box-shadow: -7px -5px 23px 5px green; */
+
+        box-shadow:3px 5px green , -7px -9px red;
+    }
+    .card h1{
+        /* text-shadow: 3px 4px white; */
+        text-shadow: 3px 4px 2px white;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="card" id="card1">
+            <h1>Card1</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, deleniti maiores impedit qui repudiandae accusantium, dolore harum quis quo iste, quasi veritatis suscipit vero ipsam accusamus distinctio fugit saepe optio quidem tempora. Fugit tempore, sit hic commodi incidunt doloribus officia. Recusandae, molestias minima? Ducimus.</p>
+        </div>
+        <div class="card" id="card2">
+            <h1>Card2</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci asperiores quia, similique ex quis nobis dicta rem ipsum sunt qui accusamus ratione odio fugit assumenda provident consequuntur, commodi doloribus alias?</p>
+        </div>
+        <div class="card" id="card3">
+            <h1>Card3</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores libero nihil, officiis nobis sapiente reprehenderit minima rerum obcaecati nesciunt nemo. Accusamus cumque numquam, earum iure quod voluptatem totam distinctio fugiat in inventore excepturi, velit nesciunt recusandae mollitia beatae. Non, delectus dolorem voluptas placeat odio quod, molestiae aut culpa incidunt eveniet, obcaecati eius porro iste sit.</p>
+        </div> 
+    </div>
+</body>
+</html>
